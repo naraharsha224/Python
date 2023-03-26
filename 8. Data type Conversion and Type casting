@@ -1,0 +1,40 @@
+In Python, data type conversion is the process of converting one data type to another. Python supports several data types such as integers, floats, strings, and booleans. 
+Sometimes, you may need to convert one data type to another for various reasons such as performing arithmetic operations or storing data in a specific format.
+
+Type casting, on the other hand, is a method of explicitly converting a value from one data type to another. In Python, you can use various built-in functions and methods to convert data types.
+
+Here are some examples of data type conversion and type casting in Python:
+
+
+Convert string to integer:
+str_num = "10"
+int_num = int(str_num)
+print(int_num)  # Output: 10
+
+
+Convert integer to float:
+int_num = 10
+float_num = float(int_num)
+print(float_num)  # Output: 10.0
+
+
+Convert float to integer:
+float_num = 10.5
+int_num = int(float_num)
+print(int_num)  # Output: 10
+
+
+Convert string to float:
+str_num = "10.5"
+float_num = float(str_num)
+print(float_num)  # Output: 10.5
+
+
+Type casting in arithmetic operations:
+num1 = 10
+num2 = 2
+result = num1 / num2
+print(result)  # Output: 5.0 (float)
+
+int_result = int(result)
+print(int_result)  # Output: 5 (integer)

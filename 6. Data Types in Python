@@ -1,0 +1,22 @@
+Data Type
+1.	Variables can store data of different data types.
+
+
+Built-in Data Types
+1.	Text Type:   str
+2.	Numeric Types: int, float, complex
+3.	Sequence Types: list, tuple, range
+4.	Mapping Type: dict
+5.	Set Types: set, frozenset
+6.	Boolean Type: bool
+7.	Binary Types: bytes, bytearray, memoryview
+
+Here's a brief explanation of each of these data types:
+1.	Numbers: These are used to represent numerical values. There are three types of numbers in Python: integers (int), floating-point numbers (float), and complex numbers (complex).
+2.	Strings: These are used to represent textual data. A string is a sequence of characters enclosed in quotation marks.
+3.	Lists: Lists are used to store a collection of elements, which can be of any data type. They are ordered and mutable, meaning you can add, remove, and modify elements in a list.
+4.	Tuples: Tuples are similar to lists, but they are immutable, meaning you cannot modify their contents once they are created.
+5.	Sets: Sets are used to store a collection of unique elements. They are unordered and mutable.
+6.	Dictionaries: Dictionaries are used to store a collection of key-value pairs. They are unordered and mutable.
+7.	Booleans: Booleans represent truth values, either True or False. They are often used in conditional statements and logical operations.
+

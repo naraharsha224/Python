@@ -1,0 +1,39 @@
+Python Number Data type
+1.	Int: it’s a whole number(positive or negative) without decimals, unlimited length.
+2.	Float: it’s a decimal number(positive or negative) containing one or more decimals
+3.	Complex: complex numbers are written with j as the imaginary part.
+
+
+
+Integers: Integers represent whole numbers, both positive and negative. They are represented in Python by the int data type. 
+For example:
+x = 5
+y = -2
+
+
+Floating-point numbers: Floating-point numbers represent decimal numbers, both positive and negative. They are represented in Python by the float data type.
+For example:
+a = 3.14
+b = -0.5
+
+
+
+Complex numbers: Complex numbers are represented in Python by the complex data type. They consist of a real part and an imaginary part, separated by a + or - sign, and ending with a j or J. 
+For example:
+c = 2 + 3j
+d = -1.5 - 2.5j
+
+
+Python supports arithmetic operations on numbers, such as addition (+), subtraction (-), multiplication (*), division (/), floor division (//), and modulus (%). 
+For example:
+x = 5
+y = 2
+print(x + y)  # Output: 7
+print(x - y)  # Output: 3
+print(x * y)  # Output: 10
+print(x / y)  # Output: 2.5
+print(x // y) # Output: 2 (floor division, which rounds down to the nearest integer)
+print(x % y)  # Output: 1 (modulus, which gives the remainder after division)
+
+
+In addition to these basic operations, Python also has built-in functions for more advanced mathematical operations, such as exponentiation (**) and trigonometric functions (sin(), cos(), tan(), etc.).

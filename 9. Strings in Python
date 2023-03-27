@@ -50,4 +50,34 @@ new_string = string.replace('World', 'Python')
 print(new_string)  # output:   Hello, Python!  
 
 
+================================================================================================
+
+Slicing: In Python, slicing is a way to extract a part of a sequence (such as a string, list, or tuple) by specifying a range of indices.
+
+    sequence[start:stop:step]
+
+Here's what each parameter means:
+
+start: The index where the slice begins (inclusive).
+stop: The index where the slice ends (exclusive).
+step: The stride between each index in the slice (default is 1).
+
+
+Here are some examples of slicing a string in Python:
+
+string = "Hello, world!"
+
+# get the first 5 characters
+print(string[0:5])  # output: Hello
+
+# get the characters from index 7 to the end
+print(string[7:])  # output: world!
+
+# get every other character
+print(string[::2])  # output: Hlo ol!
+
+# reverse the string
+print(string[::-1])  # output: !dlrow ,olleH
+
+
 

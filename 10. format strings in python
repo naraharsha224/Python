@@ -1,0 +1,38 @@
+Format strings
+1.	We cannot combine strings and numbers directly using + symbol.
+2.	But we can combine strings and numbers using format() method.
+3.	Format() method takes the passed arguments, formats them and places them in string where place holders {} are there.
+
+
+x = "My age is"
+age = 28
+salary = 20000
+
+print(x +' '+str(age))          # My age is 28
+print("My age is {}".format(age))  # My age is 28
+print("My age is {} and my salary is {}".format(age,salary)) # My age is 28 and my salary is 20000
+
+
+
+=================================================================
+
+In Python, format strings are a way to create strings with dynamic values. They allow you to insert values into a string in a way that is both readable and flexible.
+
+There are two ways to create format strings in Python: using the % operator or using f-strings.
+
+Here's an example of creating a format string using the % operator:
+
+name = "Alice"
+age = 30
+message = "My name is %s and I'm %d years old." % (name, age)
+print(message)  # output: My name is Alice and I'm 30 years old.
+
+
+
+
+name = "Bob"
+age = 25
+message = f"My name is {name} and I'm {age} years old."
+print(message)  # output: My name is Bob and I'm 25 years old.
+
+

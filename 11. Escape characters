@@ -1,0 +1,20 @@
+Escape characters
+1.	We will use escape characters to insert characters that are valid in string.
+2.	Escape character is a backslash \ followed by character we want to insert.
+3.	\n: This represents a newline character. It is used to move the cursor to the next line.
+4.	\t: This represents a tab character. It is used to insert a horizontal tab.
+5.	\\: This represents a backslash character. It is used to insert a backslash.
+6.	\": This represents a double quote character. It is used to insert a double quote.
+7.	\': This represents a single quote character. It is used to insert a single quote.
+
+
+s = "My\bName\bis\bHarsha"
+print(s) # MNamiHarsha
+
+
+
+s = "My\tName\tis\tHarsha"
+print(s)  # My	Name	is	Harsha
+
+
+

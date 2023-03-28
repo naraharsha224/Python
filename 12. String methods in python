@@ -1,0 +1,71 @@
+1.	Upper(): converts a string into upper case.
+2.	Lower(): converts a string into lower case.
+3.	Index(): Searches the string for a specified value and returns the position of where it was found.
+4.	Replace(): returns a string where a specified value is replaced with a  specified value.
+5.	Split(): splits the string at the specified separator and returns a list.
+6.	Strip(): returns a trimmed version of the string.
+7.	join(): This method joins a list of strings into a single string using a separator.
+8.	startswith(): This method checks whether the string starts with a specified substring and returns a boolean value.
+9.	endswith(): This method checks whether the string ends with a specified substring and returns a boolean value.
+10.	Count(): This method returns the number of times a substring appears in the string.
+11.	Isdigit(): This method checks whether the string consists of only digits and returns a Boolean value.
+12.	Isalpha(): this method checks whether the string consists of only alphabets and returns a Boolean value.
+13.	Isalnum(): This method checks whether the string consists of only alphanumeric characters and returns a Boolean value.
+14.	Isupper(): This method checks whether string consists only the uppercase characters and returns a Boolean value.
+15.	Islower(): This method checks whether string consists only the lowercase characters and returns a Boolean value.
+
+ 
+Examples:
+name = "Harsha Vardhan"
+print(name.lower())  # harsha vardhan
+print(name.upper())  # HARSHA VARDHAN
+
+print(name.index("r"))   # 2
+print(name.index("a",4)) # 5
+
+print(name.replace(" ",","))  # Harsha,Vardhan
+print(name.replace("Vardhan","Nara")) # Harsha Nara
+
+print(name.split()) # ['Harsha', 'Vardhan']
+
+name1 = "    Harsha Vardhan    "
+print(name1.strip())  # Harsha Vardhan
+print(name.strip('n'))  # Harsha Vardha
+print(name.lstrip("H"))  # arsha Vardhan
+print(name.rstrip(('n')))  # Harsha Vardha
+
+
+my_list = ["Hello","World!"]
+print(", ".join(my_list))  # Hello, World!
+
+
+my_string = "Hello, World!"
+print(my_string.startswith("Hello"))  # Output: True
+
+
+my_string = "Hello, World!"
+print(my_string.endswith("Universe!"))  # Output: True
+
+
+my_string = "Hello, World!"
+print(my_string.count("l"))  # Output: 3
+
+
+my_string = "12345"
+print(my_string.isdigit())  # Output: True
+
+
+my_string = "HelloWorld"
+print(my_string.isalpha())  # Output: True
+
+
+my_string = "Hello123"
+print(my_string.isalnum())  # Output: True
+
+
+my_string = "HELLO, WORLD!"
+print(my_string.isupper())  # Output: True
+
+
+my_string = "hello, world!"
+print(my_string.islower())  # Output: True

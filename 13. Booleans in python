@@ -1,0 +1,28 @@
+1.	Booleans represent as True or False
+2.	We can evaluate any expression in python and get output as either True or False.
+
+
+print(10>5) # True
+print(10<5) # False
+
+x = True
+print(type(x))  # <class 'bool'>
+
+bool():
+1.	Bool function allows you to evaluate a value and return True or False
+2.	Any string will return True, except empty string(“”)
+3.	Any number return True, except 0.
+4.	Any list, tuple, set return True, except empty ones [],(),{}
+
+
+print(bool("Hello"))  # True
+print(bool("")) # False
+print(bool(1)) # True
+print(bool(0)) # False
+print(bool([])) # False
+print(bool(())) # False
+print(bool({})) # False
+
+print(bool([1,2,3,'c'])) # True
+print(bool((1,'a',45))) # True
+print(bool({1,2,'c'})) # True

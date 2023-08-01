@@ -1,0 +1,56 @@
+To perform operations on variables or values we have to use operators in Python.
+ 
+
+Arithmetic Operators:
++: Addition
+-: Subtraction
+*: Multiplication
+/: Division (float result)
+//: Floor Division (integer result)
+%: Modulus (remainder)
+**: Exponentiation (power)
+
+
+Assignment Operators:
+=: Assigns a value to a variable.
++=: Adds a value to the variable and assigns the result.
+`-=``: Subtracts a value from the variable and assigns the result.
+`*=``: Multiplies the variable by a value and assigns the result.
+`/=``: Divides the variable by a value and assigns the result.
+`//=``: Performs floor division on the variable and assigns the result.
+`%=``: Performs modulus on the variable and assigns the result.
+`**=``: Performs exponentiation on the variable and assigns the result.
+
+
+Comparison Operators:
+==: Equal to
+!=: Not equal to
+<: Less than
+>: Greater than
+<=: Less than or equal to
+>=: Greater than or equal to
+
+
+Logical Operators:
+and: Logical AND
+or: Logical OR
+not: Logical NOT
+
+
+Bitwise Operators:
+&: Bitwise AND
+|: Bitwise OR
+^: Bitwise XOR
+~: Bitwise NOT
+<<: Left shift
+>>: Right shift
+
+
+Membership Operators:
+in: Returns True if a value is present in a sequence.
+not in: Returns True if a value is not present in a sequence.
+
+
+Identity Operators:
+is: Returns True if two variables refer to the same object.
+is not: Returns True if two variables refer to different objects.
